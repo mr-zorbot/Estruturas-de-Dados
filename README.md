@@ -1,5 +1,5 @@
 # Estrutura de Dados
-Repositório com os algorítimos utilizados no curso de Estrutura de Dados -- DAC/UFLA
+Repositório com os algoritmos utilizados no curso de Estrutura de Dados -- DAC/UFLA
 
 ## 📚 Bibliografia
 - ASCENSIO, Ana Fernanda G.; ARAÚJO, Graziela Santos. **Estruturas de Dados: algoritmos, análise da complexidade e implementações em JAVA e C/C++.** São Paulo: Pearson, 2010.
