@@ -36,7 +36,7 @@ class Pilha {
 
 		// Métodos auxiliares
 		dado espia();
-		unsigned getTamanho();
+		inline unsigned getTamanho();
 		void imprime();
 };
 
