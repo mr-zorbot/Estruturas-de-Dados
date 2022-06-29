@@ -1,4 +1,4 @@
-# Estrutura de Dados
+# Estruturas de Dados
 Repositório com os algoritmos utilizados no curso de Estrutura de Dados -- DAC/UFLA
 
 ## 📚 Bibliografia
