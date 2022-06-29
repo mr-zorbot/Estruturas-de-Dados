@@ -1,6 +1,6 @@
 // Autor: Iann-Zorkot
 // Licença: CC0 1.0 Universal
-// Descrição: Implementação de pilha utilizando encadeamento de nós, desenvolvido para o curso de Estrutura de Dados -- DAC/UFLA
+// Descrição: Implementação de pilha utilizando encadeamento de nós, desenvolvido para o curso de Estruturas de Dados -- DAC/UFLA
 
 #include <iostream>
 using namespace std;
@@ -119,7 +119,6 @@ void Pilha::imprime() {
 	while(not aux.vazia()) {
 		this->insere(aux.remove());
 	}
-
 }
 
 // Função principal para testes
