@@ -16,7 +16,7 @@ class Noh {
 		Noh(dado umDado);
 };
 
-// Constroi o Noh
+// Constrói o Noh
 Noh::Noh(dado umDado) {
 	proximo = NULL;
 	valor = umDado;
@@ -35,12 +35,12 @@ class Pilha {
 		inline bool vazia();
 
 		// Métodos auxiliares
-		dado espia();
+		inline dado getTopo();
 		inline unsigned getTamanho();
 		void imprime();
 };
 
-// Constroi a pilha
+// Constrói a pilha
 Pilha::Pilha() {
 	topo = NULL;
 	tamanho = 0;
@@ -91,7 +91,7 @@ unsigned Pilha::getTamanho() {
 }
 
 // Retorna o valor do topo (getValor)
-dado Pilha::espia() {
+dado Pilha::getTopo() {
 	if(this->vazia()) {
 		cerr << "pilha vazia!\n";
 		exit(EXIT_FAILURE);
@@ -166,7 +166,7 @@ int main() {
 				break;
 
 			case 'h':
-				cout << "topo: " << umaPilha.espia() << "\n";
+				cout << "topo: " << umaPilha.getTopo() << "\n";
 				break;
 
 			case 's':
